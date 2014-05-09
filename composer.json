@@ -1,0 +1,19 @@
+{
+    "name": "vendor_name/package_name",
+    "description": "description_text",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Peter Maffay",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "propel/propel": "2.0.0-alpha3"
+    },
+    "autoload": {
+        "classmap": ["."]
+    }
+}
+
